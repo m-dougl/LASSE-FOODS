@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "lasse-foods"
+version = "0.1.0"
+description = "Projeto para auxiliar o Lucas Matni na demanda de pedidos da padaria"
+authors = ["Douglas <douglas.maia.santos@itec.ufpa.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.33.0"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
