@@ -12,8 +12,8 @@ def main():
     show_orders = st.button(label="Mostrar pedidos")
     
     database = LasseFoodsDB(db_path="lassefoods.db")
+    database.create_table()
     if send:
-        database.create_table()
         database.add_data(username=username, food_order=food_order)
     
     if show_orders:
